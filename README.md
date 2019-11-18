@@ -44,8 +44,9 @@ To terminate use ctrl+c
 
 ### Generating and Playing Rosbag file
 
-#### Genrating
+#### Generating
 The command shown below will launch the node and record a rosbag file for 30 seconds.
+Open a new terminal
 ```
 $ roslaunch turtle_walker turtle_walker.launch enableRosBag:=true
 ```
