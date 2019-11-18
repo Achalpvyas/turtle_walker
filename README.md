@@ -33,22 +33,6 @@ $ catkin_make
 
 ## Running the node
 
-
-### Using rosrun
-The following commands runs the walker node that makes the turtle bot to move in the world using rosrun.
-Since ros master is already running no need to use roscore.
-The following commands first opens up a gazebo simulator with the world and a spawned turtlebot.
-Terminal(1)
-```
-$ cd
-$ roslaunch turtlebot_gazebo turtle_world.launch
-```
-Terminal(2)
-```
-$ rosrun turtle_walker turtle_walker
-```
-To terminate use ctrl+c
-
 ### Using roslaunch
 The following commands runs the walker node to move in the world using roslaunch
 
