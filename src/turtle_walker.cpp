@@ -25,7 +25,7 @@
 
 
 /**
-* @file walker.cpp
+* @file turtle_walker.cpp
 * @brief walker class Implementation
 * @details Implementation of walker class
 * @author  Pruthvikumar Sureshkumar Sanghavi
