@@ -25,7 +25,7 @@
 
 
 /**
-* @file walker.hpp
+* @file turtle_walker.hpp
 * @brief walker class
 * @details Definition of walker class to generate walker behaviour in turtlebot
 * @author Pruthvikumar Sanghavi
