@@ -37,6 +37,7 @@ $ catkin_make
 The following commands runs the walker node to move in the world using roslaunch
 
 ```
+$ source devel/setup.bash
 $ roslaunch turtle_walker turtle_walker.launch enableRosBag:=false 
 ```
 To terminate use ctrl+c
