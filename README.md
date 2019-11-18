@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Overview
-This software consists of code to launch and run a turtlebot like a Roomba vacuum cleaner robot.
+This software consists of code to launch and run, record and play a turtlebot like a Roomba vacuum cleaning robot.
 
 ## Dependencies			
  Ubuntu 16.04 Xenial ([link](http://releases.ubuntu.com/16.04/))
@@ -36,7 +36,7 @@ The following commands first opens up a gazebo simulator with the world and a sp
 Terminal(1)
 ```
 $ cd
-$ roslaunch turtlebot_gazebo turtlebot_world.launch
+$ roslaunch turtlebot_gazebo turtle_world.launch
 ```
 
 ### Using rosrun
@@ -44,7 +44,7 @@ The following commands runs the walker node that makes the turtle bot to move in
 Since ros master is already running no need to use roscore.
 Terminal(2)
 ```
-$ rosrun turtle_walker walker
+$ rosrun turtle_walker turtle_walker
 ```
 To terminate use ctrl+c
 
@@ -52,7 +52,7 @@ To terminate use ctrl+c
 The following commands runs the walker node to move in the world using roslaunch
 
 ```
-$ roslaunch turtle_walker turtlebot_walker.launch enableRosBag:=false 
+$ roslaunch turtle_walker turtle_walker.launch enableRosBag:=false 
 ```
 To terminate use ctrl+c
 
@@ -61,7 +61,7 @@ To terminate use ctrl+c
 #### Genrating
 The command shown below will launch the node and record a rosbag file for 30 seconds.
 ```
-$ roslaunch turtle_walker turtlebot_walker.launch enableRosBag:=true
+$ roslaunch turtle_walker turtle_walker.launch enableRosBag:=true
 ```
 #### Playing 
 The command given below will play the saved bag file.
