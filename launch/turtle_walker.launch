@@ -1,0 +1,16 @@
+<launch>
+	<arg name="duration" default="30"/>
+	<arg
+    	name = "enableRosBag" 
+        default = "false"
+  />
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+    <arg name="world_file" value="$(find turtle_walker)/worlds/walled.world.xml"/>
+	</include>
+	<node pkg="turtle_walker" name="walker" type="walker" output="screen"/>
+        <node pkg="rosbag" name="recorder_bag" type="record" args="--all --output-name=$(find turtle_walker)/results/walk_record.bag -x /camera/(.*) --duration=$(arg duration)" if="$(arg enableRosBag)"/>
+
+</launch>
+
+
+	
