@@ -42,6 +42,7 @@ $ roslaunch turtle_walker turtle_walker.launch enableRosBag:=false
 ```
 To terminate use ctrl+c
 
+![Alt Text](https://github.com/Pruthvi-Sanghavi/turtle_walker/blob/master/results/turtle_walker.gif)
 ### Generating and Playing Rosbag file
 
 #### Generating
