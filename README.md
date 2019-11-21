@@ -5,10 +5,10 @@
 This software consists of code to launch and run, record and play a turtlebot like a Roomba vacuum cleaning robot.
 
 ## Dependencies			
- Ubuntu 16.04 Xenial ([link](http://releases.ubuntu.com/16.04/))
- ROS kinetic ([link](http://wiki.ros.org/kinetic))
- Catkin ([link](http://wiki.ros.org/catkin))  
- Gazebo ([link](http://gazebosim.org/))
+ - Ubuntu 16.04 Xenial ([link](http://releases.ubuntu.com/16.04/))
+ - ROS kinetic ([link](http://wiki.ros.org/kinetic))
+ - Catkin ([link](http://wiki.ros.org/catkin))  
+ - Gazebo ([link](http://gazebosim.org/))
 
 ## Install the turtlebot stack
 Open a terminal(1)
