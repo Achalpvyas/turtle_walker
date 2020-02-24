@@ -12,6 +12,8 @@ This software consists of code to launch and run, record and play a turtlebot li
 
 ## Install the turtlebot stack
 Open a terminal(1)
+
+
 ```
 sudo apt-get install ros-kinetic-turtlebot-gazebo 
 ```
@@ -44,6 +46,8 @@ To terminate use ctrl+c
 
 ### Generating and Playing Rosbag file
 
+
+
 #### Generating
 The command shown below will launch the node and record a rosbag file for 30 seconds.
 Open a new terminal
@@ -65,6 +69,8 @@ cd src/turtle_walker/results
 rosbag play walk_record.bag
 ```
 To terminate ctrl+c
+
+
 
 To get the information about the bag file.
 ```
